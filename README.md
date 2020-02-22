@@ -1,1 +1,1 @@
-# ptyhon-challenges
+# python-challenges
