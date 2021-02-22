@@ -19,44 +19,68 @@ Operating System:Windows 10 ver. 1909
 
 **3. Table of Contents**
 **Images**: screen captured (.gif) demo of programs run in PowerShell.
+
 **PyElections:** folder contains files and analysis of Mayoral Election Data:
-**Jupyter Notebook**: used during the development of final main.py.
-**Resources**: raw election data.
-**Election_Results.txt**: exported report after running analysis.
-**main.py:** final program (converted from JPNB) that can be run in Windows Terminal.
+
+    **Jupyter Notebook**: used during the development of final main.py.
+    
+    **Resources**: raw election data.
+    
+    **Election_Results.txt**: exported report after running analysis.
+    
+    **main.py:** final program (converted from JPNB) that can be run in Windows Terminal.
+    
+    
 **PyFinances:** folder contains files and analysis of Company Financial Data:
-**Jupyter Notebook:** used during the development of final main.py.
-**Resources:** raw financial data.
-**Budget_Report.txt:** exported report after running analysis.
-**main.py:** final program (converted from JPNB) that can be run in Windows Terminal.
+
+    **Jupyter Notebook:** used during the development of final main.py.
+    **Resources:** raw financial data.
+    **Budget_Report.txt:** exported report after running analysis.
+    **main.py:** final program (converted from JPNB) that can be run in Windows Terminal.
 
 
 **4. Topics** 
 Both Python programs were developed to summarize data:
 
-4.1 PyElections
+**4.1 PyElections**
+
 Total number of votes.
+
 List of all candidates.
+
 Total votes casted for each candidate.
+
 Percentage of votes casted for each candidate.
+
 Names of 1st and 2nd candidates.
-4.2 PyFinances
-Total number of months included in the dataset.
+
+**4.2 PyFinances**
+
+Total number of months included in the dataset. 
+
 Net total amount of "Profit/Losses" over the entire period.
+
 Average changes in "Profit/Losses" over the entire period.
+
 Greatest increase in profits (date and amount) over the entire period.
+
 Greatest decrease in losses (date and amount) over the entire period.
-5. Highlights of Key Process
+
+**5. Highlights of Key Process**
 File Handler with with open().
 Loop thru all CSV rows and extract data with for loop.
 Append data to Lists with list.append().
 Numerical dtype transformation: round(), sum(), int(), etc.
 Perform simple math do add, or subtract data.
 Write output to .txt file with .write().
-6. How to Use
+
+
+**6. How to Use**
+
 This repository contains all source codes and data needed for replications. If desired, a new dataset with similar structure can be used. If column order changes, modify the row_data[<index>] to point to correct columns.
-git clone https://github.com/henryle-n/Election-Financial-Analysis.git
-About
+
+**About**
+
 Python app was utilized (with no other dataframe libraries) to read 2 CSV files of different datasets, loop and analyze data to return summary of interested topics. One dataset is about Election Data, the other is about Company Financial Data. For effective development, Jupyter Notebook was used, the finished codes then exported into Python (.py…
 
 Topics
